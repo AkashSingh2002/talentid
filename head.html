@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent ID - Candidate Tracking System</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header section styling */
+        header {
+            background-color: #603998; /* Purple background for header */
+            padding: 20px;
+            color: white; /* White text color for contrast */
+        }
+
+        /* Logo styling */
+        header .logo img {
+            height: 50px; /* Ensure consistent logo height */
+            vertical-align: middle; /* Align with the text baseline */
+        }
+
+        /* Navigation bar styling */
+        header nav {
+            display: inline-block;
+            float: right; /* Align navigation to the right */
+        }
+
+        /* Navigation links styling */
+        header nav a {
+            color: white;
+            margin-left: 20px; /* Spacing between links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hover effect for navigation links */
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero section styling */
+        .hero {
+            text-align: center; /* Center-align text */
+            padding: 50px 20px;
+            background-color: #baaad3; /* Light purple background */
+        }
+
+        .hero h1 {
+            font-size: 2.5em; /* Large font size for headline */
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em; /* Slightly larger paragraph text */
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            background-color: #603998; /* Match header color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px; /* Rounded button corners */
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: #452d77; /* Darker purple on hover */
+        }
+
+        /* Features section styling */
+        .features {
+            display: flex;
+            justify-content: space-around; /* Equal spacing between feature cards */
+            padding: 40px 20px;
+        }
+
+        .features div {
+            text-align: center; /* Center-align each feature card */
+            width: 30%; /* Set equal width for each card */
+        }
+
+        .features div h2 {
+            font-size: 1.5em; /* Slightly larger title font */
+            margin-bottom: 15px;
+        }
+
+        .features div p {
+            font-size: 1em; /* Standard paragraph font size */
+        }
+
+        /* Call-to-action section styling */
+        .cta {
+            text-align: center; /* Center-align text */
+            padding: 30px 20px;
+            background-color: #603998; /* Match header color */
+            color: white; /* White text for contrast */
+        }
+
+        .cta button {
+            background-color: #baaad3; /* Light purple button */
+            color: #603998; /* Match header text color */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta button:hover {
+            background-color: #452d77; /* Darker purple on hover */
+            color: white; /* Change text color to white */
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #603998; /* Match header color */
+            color: white; /* White text for readability */
+            text-align: center; /* Center-align text */
+            padding: 20px;
+            margin-top: 30px; /* Add spacing from content above */
+        }
+
+        /* General image styling */
+        img {
+            max-width: 100%; /* Ensure images are responsive */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .image-center {
+            display: block;
+            margin: 20px auto; /* Center-align image */
+        }
+
+        /* FAQ section styling */
+        .faq {
+            max-width: 800px;
+            margin: 0 auto; /* Center-align FAQ section */
+            padding: 20px;
+        }
+
+        .faq h2 {
+            font-size: 1.8em; /* Larger FAQ title */
+            text-align: center; /* Center-align title */
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 15px;
+        }
+
+        .faq-item button {
+            width: 100%; /* Full-width buttons */
+            background-color: #fff; /* White background for buttons */
+            border: 1px solid #ccc; /* Light gray border */
+            padding: 10px;
+            font-size: 1em;
+            text-align: left; /* Left-align text */
+            cursor: pointer;
+        }
+
+        .faq-item button:hover {
+            background-color: #f9f9f9; /* Slightly darker background on hover */
+        }
+
+        .faq-item p {
+            display: none; /* Hidden by default */
+            padding: 10px;
+            border: 1px solid #ccc; /* Match button border */
+            border-top: none; /* Remove top border */
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://res.cloudinary.com/dfz0wkqij/image/upload/f_auto,q_auto/logo3-CD2fE1xE_lqu78k" alt="Talent ID Logo">
+        </div>
+        <nav>
+            <a href="#">Products</a>
+            <a href="#">Pricing</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>World's First Candidate Tracking System</h1>
+        <p>Check with our CTS whether you should HIRE or NOT!</p>
+        <button>Book a Demo</button>
+    </section>
+
+    <section>
+        <img class="image-center" src="https://res.cloudinary.com/dfz0wkqij/image/upload/v1732554141/knevj5dfaxsbpbqu4a5w.png" alt="Solutions Graphic">
+    </section>
+
+    <section class="features">
+        <div>
+            <h2>Better Hiring</h2>
+            <p>Screen candidates and make data-driven decisions.</p>
+        </div>
+        <div>
+            <h2>Loyalty Check</h2>
+            <p>Ensure candidates align with your organization's values.</p>
+        </div>
+        <div>
+            <h2>Retention</h2>
+            <p>Track performance to retain the best talent.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to dive in?</h2>
+        <button>Get Started</button>
+    </section>
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button>What is Talent ID?</button>
+            <p>Talent ID is a comprehensive candidate tracking system that helps businesses make informed hiring decisions.</p>
+        </div>
+        <div class="faq-item">
+            <button>How can Talent ID help my business?</button>
+            <p>Talent ID provides tools to screen candidates effectively and gain insights into their skills and performance.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Talent ID. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Show an alert when "Book a Demo" button is clicked
+        document.querySelector('.hero button').addEventListener('click', function() {
+            alert('Thank you for your interest! A demo booking link will be shared soon.');
+        });
+
+        // Toggle visibility of FAQ answers when a question is clicked
+        document.querySelectorAll('.faq-item button').forEach(button => {
+            button.addEventListener('click', function() {
+                const p = this.nextElementSibling;
+                p.style.display = p.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
